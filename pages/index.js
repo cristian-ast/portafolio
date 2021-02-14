@@ -19,12 +19,16 @@ export default function Home() {
             Cristian Castro Astacio
           </h3>
           <div className="cabecera-opciones">
-              <Button 
-                startIcon={<GitHubIcon />}
-              />
-              <Button 
-                startIcon={<InstagramIcon />}
-              />
+              <a href="https://github.com/cristian-ast" target="_blanck" >
+                <Button 
+                  startIcon={<GitHubIcon />}
+                />
+              </a>
+              <a href="https://www.instagram.com/cristian.ast/" target="_blanck" >
+                <Button 
+                  startIcon={<InstagramIcon />}
+                />
+              </a>
           </div>
         </div>
 
@@ -34,6 +38,18 @@ export default function Home() {
             <p>I'm a 20-year-old student at UASD University currently studying Computer Science. I really like programming.</p>
             <h3>My Skills</h3>
             <p>Through my studies, I've gained a solid understanding of computer science and web development concepts, and have dedicated a lot of my free time to apply these concepts to real-world scenarios and applications.</p>
+            <div className="informacion-sobre-mi-texto-lista">
+              <ul>
+                <li>Javascript ES6</li>
+                <li>HTML & CSS</li>
+                <li>React JS</li>
+              </ul>
+              <ul>
+                <li>Next JS</li>
+                <li>Mongo DB</li>
+              </ul>
+            </div>
+            
           </div>
         </div>
 
