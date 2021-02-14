@@ -14,6 +14,12 @@ a {
   box-sizing: border-box;
 }
 
+.cuerpo-pagina {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .cabecera {
   display: flex;
   width: 100%;
@@ -28,13 +34,15 @@ a {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  width: 200px;
+  width: 100px;
 }
 
 .informacion-sobre-mi {
   width: 100%;
+  max-width: 880px;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .mi-foto {
@@ -42,4 +50,9 @@ a {
   max-width: 300px;
   border-radius: 20px;
   margin-top: 20px;
+}
+
+.informacion-sobre-mi-texto {
+  margin: 30px;
+  text-align: justify;
 }

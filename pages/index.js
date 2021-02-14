@@ -8,7 +8,7 @@ import InstagramIcon from '@material-ui/icons/Instagram';
 export default function Home() {
   return (
     <Container>
-      <div>
+      <div className="cuerpo-pagina">
         <Head>
           <title>Cristian Castro Astacio</title>
           <link rel="icon" href="/favicon.ico" />
@@ -30,9 +30,12 @@ export default function Home() {
 
         <div className="informacion-sobre-mi">
           <img src={cristian} className="mi-foto" alt="Foto de Cristian" />
+          <div className="informacion-sobre-mi-texto">
+            <p>I'm a 20-year-old student at UASD University currently studying Computer Science. I really like programming.</p>
+            <h3>My Skills</h3>
+            <p>Through my studies, I've gained a solid understanding of computer science and web development concepts, and have dedicated a lot of my free time to apply these concepts to real-world scenarios and applications.</p>
+          </div>
         </div>
-
-        
 
         <footer>
           
