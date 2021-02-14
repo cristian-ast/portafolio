@@ -13,7 +13,6 @@ export default function Home() {
           <title>Cristian Castro Astacio</title>
           <link rel="icon" href="/favicon.ico" />
         </Head>
-
         <div className="cabecera">
           <h3 className="cabecera-texto">
             Cristian Castro Astacio
@@ -31,7 +30,6 @@ export default function Home() {
               </a>
           </div>
         </div>
-
         <div className="informacion-sobre-mi">
           <img src={cristian} className="mi-foto" alt="Foto de Cristian" />
           <div className="informacion-sobre-mi-texto">
@@ -49,6 +47,7 @@ export default function Home() {
                 <li>Mongo DB</li>
               </ul>
             </div>
+            <h3>What I've been working on</h3>
             
           </div>
         </div>
