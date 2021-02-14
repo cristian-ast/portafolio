@@ -2,8 +2,7 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 a {
@@ -13,4 +12,34 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+.cabecera {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.cabecera-texto {
+  margin-left: 20px;
+}
+
+.cabecera-opciones {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 200px;
+}
+
+.informacion-sobre-mi {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.mi-foto {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 20px;
+  margin-top: 20px;
 }
