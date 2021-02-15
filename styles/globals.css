@@ -25,9 +25,14 @@ li, p {
 }
 
 .cabecera {
+  background-color: white;
+  position: fixed;
   display: flex;
   width: 100%;
   justify-content: space-between;
+  -webkit-box-shadow: 10px 10px 22px -15px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 22px -15px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 22px -15px rgba(0,0,0,0.75);
 }
 
 .cabecera-texto {
@@ -53,7 +58,7 @@ li, p {
   width: 100%;
   max-width: 300px;
   border-radius: 20px;
-  margin-top: 20px;
+  margin-top: 90px;
 }
 
 .informacion-sobre-mi-texto {
